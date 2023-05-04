@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { MdOutlineEmail } from 'react-icons/md';
 
+
 import './contact.css';
 
 const Contact = () => {
@@ -65,12 +66,12 @@ const Contact = () => {
             required
           ></textarea>
           <div >
-          <button type="submit" className="btn btn-primary">
+          <a href='mailto:sengardante@gmail.com'><button type="submit" className="btn btn-primary">
             Send Message
-          </button>
-          <button type="submit" className="btn btn-primary">
+          </button></a>
+          <a href='tel:+918109614595'><button type="submit" className="btn btn-primary">
             Call
-          </button>
+          </button></a>
           </div>
           {message && <span>Thanks, I'll reply ASAP :)</span>}
         </form>
