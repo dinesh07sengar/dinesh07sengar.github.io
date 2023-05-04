@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { MdOutlineEmail } from 'react-icons/md';
+
 import './contact.css';
 
 const Contact = () => {
@@ -28,7 +29,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <section id="contact">
+    <section id="contact" >
       <h5>Get In Touch</h5>
       <h5>
         I do receive your messages and will respond asap if the valid email is
@@ -63,12 +64,18 @@ const Contact = () => {
             name="message"
             required
           ></textarea>
+          <div >
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
+          <button type="submit" className="btn btn-primary">
+            Call
+          </button>
+          </div>
           {message && <span>Thanks, I'll reply ASAP :)</span>}
         </form>
       </div>
+      
     </section>
   );
 };

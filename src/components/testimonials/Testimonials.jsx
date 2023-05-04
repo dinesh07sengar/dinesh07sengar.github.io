@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
 import { Pagination } from 'swiper';
+import GitHubCalendar from "react-github-calendar"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -32,8 +33,10 @@ const Testimonials = () => {
   ];
   return (
     <section id="testmonials">
-      <h5>Feedback from my peers</h5>
-      <h2>Testimonials</h2>
+      
+
+      <h5>Some glimpse of my github</h5>
+      <h2>GitHub-Details</h2>
       <Swiper 
         className="container testimonials__container"
         modules={[Pagination]}
@@ -41,6 +44,7 @@ const Testimonials = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
         >
+      
         {testimonials.map((test) => (
           <SwiperSlide className="testimonial" key={test.id}>
           <div className="client__avatar">
@@ -53,6 +57,16 @@ const Testimonials = () => {
           <small className="client__review">{test.test}</small> */}
         </SwiperSlide>
         ))}
+        <div>
+        <GitHubCalendar
+        fontSize={16}
+        blockSize={15}
+        
+        username="dinesh07sengar"
+        style={{backgroundColor:"none"}}
+      />
+        </div>
+       
       </Swiper>
     </section>
   )

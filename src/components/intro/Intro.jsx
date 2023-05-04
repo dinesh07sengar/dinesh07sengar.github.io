@@ -6,7 +6,7 @@ import './intro.css';
 
 const Intro = () => {
   return (
-    <section id="about">
+    <section id="about" class="about section">
       <h5>Get to know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
@@ -20,8 +20,8 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1200+ hour of Coding</small><br/>
-              <small>1000+ hour of DSA</small>
+              <small>1200+ hours of Coding</small><br/>
+              <small>1000+ hours of DSA</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />

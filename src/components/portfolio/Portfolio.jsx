@@ -1,21 +1,29 @@
 import React from 'react';
 
-import IMG2 from '../../assets/shephora.png';
-import IMG3 from '../../assets/zostal.png';
-import IMG4 from '../../assets/hotstar.png';
-import IMG5 from '../../assets/news.png';
-import IMG6 from '../../assets/math.png';
+
+import IMG4 from '../../assets/hotstar.jpg';
+
 
 import './portfolio.css';
 
 const Portfolio = () => {
   const soloProjects = [
     {
+      id: 4,
+      title: 'Hotstar',
+      img: IMG4,
+      description:
+        'Hotstar is single page video streaming web app',
+      technologies: 'ReactJs | CSS | Redux | ChakraUi | HTML | ES6',
+      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
+      github: 'https://github.com/Meri-MG/shelter',
+    },
+    {
       id: 1,
       title: 'Beauty-bebo',
       img: "https://user-images.githubusercontent.com/68657465/195849836-fcddab53-fdad-4eed-89a9-edb5a2c5fbc1.png",
       description:
-        'BookStore app that allows users to store books and update progress',
+        '•Online retail store for the need of the Makeup, Skin care & various products.',
       technologies: 'HTML | CSS | Javascript',
       link: 'https://beauty-beboclone.netlify.app/index.html',
       github: 'https://github.com/harshita0802goswami/Beauty-bebo',
@@ -23,7 +31,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: 'Shephora',
-      img: IMG2,
+      img: "https://www.musingsofamuse.com/wp-content/uploads/2012/04/new-sephora-website.jpg",
       description:
         'FakeStore app that provides information about available products and their details',
       technologies: 'HTML | CSS | Javascript',
@@ -32,49 +40,21 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: 'To-Do-App',
-      img: IMG3,
-      description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'JavaScript | Webpack',
+      title: 'Zostal',
+      img: "https://site-images.similarcdn.com/image?url=zostel.com&t=1&s=1&h=a7d9e4066a53788b7df5dcbbe4dde129af440fc6821858a68a5398d4beb26f26",
+      description: 'ZOSTEL, a hostel booking website with 60+ destinations across India and Nepal',
+      technologies: 'ReactJs | CSS | Redux | ChakraUi | HTML | ES6',
       link: 'https://meri-mg.github.io/To-Do-List/dist/',
       github: 'https://github.com/Meri-MG/To-Do-List',
-    },
-    {
-      id: 4,
-      title: 'Shelter',
-      img: IMG4,
-      description:
-        'Fully responsive interactive website built based on Figma design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
-      github: 'https://github.com/Meri-MG/shelter',
-    },
-    {
-      id: 5,
-      title: 'World News',
-      img: "https://github-readme-streak-stats.herokuapp.com?user=dinesh07sengar",
-      description:
-        'Fully responsive interactive website built based on Adobe XD design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
-      github: 'https://github.com/Meri-MG/Unilab-world-news',
-    },
-    {
-      id: 6,
-      title: 'Math Resource',
-      img: IMG6,
-      description:
-        'Real-world group project which is still in progress and will provide educational platform for future young developers',
-      technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
-      github: 'https://github.com/lukinoo/math-resource',
-    },
+    }
+   
+   
   ];
 
   return (
-    <section id="portfolio">
+    <section id="projects">
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
       <div className="container portfolio__container">
         {soloProjects.map((pro) => (
