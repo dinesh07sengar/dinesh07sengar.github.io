@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsLinkedin } from 'react-icons/bs';
+
 import { Pagination } from 'swiper';
 import GitHubCalendar from "react-github-calendar"
 

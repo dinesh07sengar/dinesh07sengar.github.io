@@ -13,10 +13,10 @@ const Contact = () => {
     setMessage(true);
     emailjs
       .sendForm(
-        'service_k2qawqh',
-        'template_c6rkpn6',
+        'service_wofr4g6',
+        'template_tw9a108',
         formRef.current,
-        'X7K7ebhIeOy3YwHki'
+        'qhzG-MP-xRGDCIdb3'
       )
       .then(
         (result) => {
@@ -69,9 +69,7 @@ const Contact = () => {
           <a href='mailto:sengardante@gmail.com'><button type="submit" className="btn btn-primary">
             Send Message
           </button></a>
-          <a href='tel:+918109614595'><button type="submit" className="btn btn-primary">
-            Call
-          </button></a>
+          
           </div>
           {message && <span>Thanks, I'll reply ASAP :)</span>}
         </form>
