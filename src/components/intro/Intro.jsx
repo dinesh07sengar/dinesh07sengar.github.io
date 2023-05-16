@@ -12,7 +12,7 @@ const Intro = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="me" />
+            <img src={ME} alt="me" className= "home-img"/>
           </div>
         </div>
         <div className="about__content">
@@ -29,7 +29,7 @@ const Intro = () => {
               <small>4+ Completed Projects</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in Learning at masai, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. I also learned how to work as a team and it helped me to do some collaborative projects. Additionally, Learning & building projects at same time isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
+          <p id="user-detail-intro">I’ve spent the last several months in Learning at masai, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. I also learned how to work as a team and it helped me to do some collaborative projects. Additionally, Learning & building projects at same time isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>

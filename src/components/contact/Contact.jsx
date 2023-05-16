@@ -1,6 +1,9 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { MdOutlineEmail } from 'react-icons/md';
+import { BsLinkedin } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
+import { FiPhoneCall } from 'react-icons/fi'
 
 
 import './contact.css';
@@ -42,9 +45,20 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>sengardante@gmail.com</h5>
+            <h5 id="contact-email">sengardante@gmail.com</h5>
             <a href="sengardante@gmail.com">Send a message</a>
+
           </article>
+          <div className="footer__socials">
+            <button id="contact-linkedin">
+              <a href="https://www.linkedin.com/in/dinesh-sengar-199a98201/" target="_blank" rel="noreferrer" ><BsLinkedin /></a></button>
+            <button id="contact-github"><a href="https://github.com/dinesh07sengar" target="_blank" rel="noreferrer" ><FaGithub /></a></button>
+            <button id="contact-phone"><a href="https://www.instagram.com/dinesh_sengar_/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noreferrer" ><FiPhoneCall /></a></button>
+          </div>
+
+
+
+
         </div>
         <form ref={formRef} onSubmit={handleSubmit}>
           <input
@@ -66,15 +80,15 @@ const Contact = () => {
             required
           ></textarea>
           <div >
-          <a href='mailto:sengardante@gmail.com'><button type="submit" className="btn btn-primary">
-            Send Message
-          </button></a>
-          
+            <a href='mailto:sengardante@gmail.com'><button type="submit" className="btn btn-primary">
+              Send Message
+            </button></a>
+
           </div>
           {message && <span>Thanks, I'll reply ASAP :)</span>}
         </form>
       </div>
-      
+
     </section>
   );
 };

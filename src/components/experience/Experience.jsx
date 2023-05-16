@@ -11,59 +11,59 @@ const Experience = () => {
         <div className="experience__frontend">
           <h3>Front-end Development</h3>
           <div className="experience__content">
-          <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>HTML</h4>
+          <article className="skills-card">
+              <BsFillPatchCheckFill className="skills-card-img" />
+              <h4 className="skills-card-name">HTML</h4>
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>CSS</h4>
+            <article className="skills-card">
+              <BsFillPatchCheckFill className="skills-card-img" />
+              <h4 className="skills-card-name">CSS</h4>
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>JavaScript</h4>
+            <article className="skills-card">
+              <BsFillPatchCheckFill className="skills-card-img" />
+              <h4 className="skills-card-name">JavaScript</h4>
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>React</h4>
+            <article className="skills-card">
+              <BsFillPatchCheckFill className="skills-card-img" />
+              <h4 className="skills-card-name">React</h4>
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Redux</h4>
+            <article className="skills-card">
+              <BsFillPatchCheckFill className="skills-card-img" />
+              <h4 className="skills-card-name">Redux</h4>
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Next.js</h4>
+            <article className="skills-card">
+              <BsFillPatchCheckFill className="skills-card-img" />
+              <h4 className="skills-card-name">Next.js</h4>
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Chakra ui</h4>
+            <article className="skills-card">
+              <BsFillPatchCheckFill className="skills-card-img" />
+              <h4 className="skills-card-name">Chakra ui</h4>
             </article>
           </div>
         </div>
         <div className="experience__backend">
           <h3>Back-end Development</h3>
           <div className="experience__content">
-          <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Node.js</h4>
+          <article className="skills-card">
+              <BsFillPatchCheckFill className="skills-card-img" />
+              <h4 className="skills-card-name">Node.js</h4>
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Express</h4>
+            <article className="skills-card">
+              <BsFillPatchCheckFill className="skills-card-img" />
+              <h4 className="skills-card-name">Express</h4>
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Mongodb</h4>
+            <article className="skills-card">
+              <BsFillPatchCheckFill className="skills-card-img" />
+              <h4 className="skills-card-name">Mongodb</h4>
             </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>java</h4>
+            <article className="skills-card">
+              <BsFillPatchCheckFill className="skills-card-img" />
+              <h4 className="skills-card-name">java</h4>
             </article>
             
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Git/GitHub</h4>
+            <article className="skills-card">
+              <BsFillPatchCheckFill className="skills-card-img" />
+              <h4 className="skills-card-name">GitHub</h4>
             </article>
           </div>
         </div>

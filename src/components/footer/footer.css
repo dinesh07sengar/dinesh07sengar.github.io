@@ -17,7 +17,7 @@ footer a {
     display: inline-block;
 }
 
-.permalinks {
+.nav-menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -53,7 +53,7 @@ footer a {
 }
   
 @media screen and (max-width: 600px){
-    .permalinks {
+    .nav-menu {
         flex-direction: column;
         gap: 1.5rem;
     }

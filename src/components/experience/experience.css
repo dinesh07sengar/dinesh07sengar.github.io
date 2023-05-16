@@ -30,12 +30,12 @@
     row-gap: 2rem;
 }
 
-.experience__details {
+.skills-card{
     display: flex;
     gap: 1rem;
 }
 
-.experience__details-icon {
+.skills-card-img {
     margin-top: 6px;
     color: var(--color-primary);
 }

@@ -18,16 +18,19 @@ const Testimonials = () => {
       id: 1,
       link: 'https://github-readme-stats.vercel.app/api?username=dinesh07sengar&show_icons=true&theme=bluegreen',
       name: 'streak1',
+      id2:"github-stats-card",
     },
     {
       id: 2,
       link: 'https://github-readme-streak-stats.herokuapp.com?user=dinesh07sengar',
       name: 'streak2',
+      id2:"github-streak-stats",
     },
     {
       id: 3,
       link: 'https://github-readme-stats.vercel.app/api/top-langs/?username=dinesh07sengar&layout=compact',
       name: 'streak3',
+      id2:"github-top-langs",
     },
    
   ];
@@ -47,7 +50,7 @@ const Testimonials = () => {
       
         {testimonials.map((test) => (
           <SwiperSlide className="testimonial" key={test.id}>
-          <div className="client__avatar">
+          <div className="client__avatar" id={test.id2}>
             <img src={test.link} alt={test.name}/>
             {/* <a href={test.link}>
               <BsLinkedin />

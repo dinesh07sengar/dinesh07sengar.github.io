@@ -4,7 +4,7 @@
     gap: 2.5rem;
 }
 
-.portfolio__item {
+.project-card {
     background: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
@@ -12,7 +12,7 @@
     transition: var(--transition);
 }
 
-.portfolio__item:hover {
+.project-card:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
 }
@@ -23,11 +23,11 @@
     height: 30%;
 }
 
-.portfolio__item h3 {
+.project-card h3 {
     margin: 2rem 0;
 }
 
-.portfolio__item p {
+.project-card p {
     margin: 0 0 1.2rem 0;
     font-size: 0.9rem;
 }
