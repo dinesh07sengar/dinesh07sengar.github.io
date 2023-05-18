@@ -13,15 +13,15 @@ const Footer = () => {
   };
   
   return (
-    <footer className="footer" id="nav-menu">
+    <footer className="footer" >
       <a href="#home" className="footer__logo">Dinesh-sengar</a>
       <ul className="nav-menu">
-        <li><a href="#home" className="nav-link home">Home</a></li>
-        <li><a href="#about" className="nav-link about">About</a></li>
-        <li><a href="#skills" className="nav-link skills">Skills</a></li>
-        <li><a href="#projects" className="nav-link projects">Projects</a></li>
-        <li><a href={CV} download className="nav-link resume" id="resume-button-1">Resume</a></li>
-        <li><a href="#contact" className="nav-link contact">Contact</a></li>
+        <li><a href="#home" >Home</a></li>
+        <li><a href="#about" >About</a></li>
+        <li><a href="#skills" >Skills</a></li>
+        <li><a href="#projects" >Projects</a></li>
+        <li><a href="#testmonials" >Github</a></li>
+        <li><a href="#contact" >Contact</a></li>
       </ul>
       <div className="footer__socials">
       <a href="https://www.linkedin.com/in/dinesh-sengar-199a98201/" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
