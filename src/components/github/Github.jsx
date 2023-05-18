@@ -36,6 +36,29 @@ const Testimonials = () => {
   ];
   return (
     <section id="testmonials">
+      <div  style={{display:'flex', justifyContent:'center', alignItems:'center', marginTop:'3rem'}}>
+        <img
+        id="github-top-langs"
+          align="center"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=dinesh07sengar&layout=compact&bg_color=FFFFFF00&hide_border=true&text_color=6d6b6b&title_color=6d6b6b"
+          alt="dinesh07sengar"
+        />
+      </div>
+      <div   style={{display:'flex', justifyContent:'center', gap:'10px', marginTop:'3rem'}} id="github-stat" >
+        <img
+        id="github-stats-card"
+          align="center"
+          src="https://github-readme-stats.vercel.app/api?username=dinesh07sengar&theme=dark&hide_border=true&include_all_commits=false&count_private=true&bg_color=FFFFFF00&text_color=6d6b6b&title_color=6d6b6b"
+          alt="dinesh07sengar"
+        />
+        <img
+        id="github-streak-stats"
+          align="center"
+          src="https://github-readme-streak-stats.herokuapp.com/?user=dinesh07sengar&theme=dark&hide_border=true&background=FFFFFF00&sideNums=6d6b6b&sideLabels=6d6b6b&ring=e66262&fire=e66262&currStreakLabel=e66262&currStreakNum=6d6b6b"
+          alt="dinesh07sengar"
+        />
+        </div>
+      {/* 
       
 
       <h5>Some glimpse of my github</h5>
@@ -52,15 +75,12 @@ const Testimonials = () => {
           <SwiperSlide className="testimonial" key={test.id}>
           <div className="client__avatar" id={test.id2}>
             <img src={test.link} alt={test.name}/>
-            {/* <a href={test.link}>
-              <BsLinkedin />
-            </a> */}
+            
           </div>
-          {/* <h5 className='client__name'>{test.name}</h5>
-          <small className="client__review">{test.test}</small> */}
+          
         </SwiperSlide>
         ))}
-        <div>
+        <div> */}
         <GitHubCalendar
         fontSize={16}
         blockSize={15}
@@ -68,9 +88,9 @@ const Testimonials = () => {
         username="dinesh07sengar"
         style={{backgroundColor:"none"}}
       />
-        </div>
+        {/* </div> */}
        
-      </Swiper>
+      {/* //</Swiper> */}
     </section>
   )
 }
