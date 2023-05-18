@@ -13,9 +13,9 @@ const Footer = () => {
   };
   
   return (
-    <footer className="footer">
+    <footer className="footer"  id="nav-menu">
       <a href="#home" className="footer__logo">Dinesh-sengar</a>
-      <ul id="nav-menu">
+      <ul className="nav-menu">
         <li><a href="#home" className="nav-link home">Home</a></li>
         <li><a href="#about" className="nav-link about">About</a></li>
         <li><a href="#skills" className="nav-link skills">Skills</a></li>
