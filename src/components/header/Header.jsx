@@ -13,7 +13,7 @@ const Header = () => {
         <h5 className="text-light">Full Stack Web Developer</h5>
         {/* //<CTA /> */}
         <div className="cta">
-          <a href={CV} download className="btn" id="resume-link-2">
+          <a href={CV} download className="btn" id="resume-button-2">
             Download CV
           </a>
           <a href="#contact" className="btn btn-primary">

@@ -53,7 +53,7 @@ const Contact = () => {
 
             <a href="https://www.linkedin.com/in/dinesh-sengar-199a98201/" target="_blank" rel="noreferrer" id="contact-linkedin" ><BsLinkedin /></a>
             <a href="https://github.com/dinesh07sengar" target="_blank" rel="noreferrer" id="contact-github"><FaGithub /></a>
-            <a href="https://www.instagram.com/dinesh_sengar_/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noreferrer" id="contact-phone" ><FiPhoneCall /></a>
+            <a href=" tel :+918109614595" target="_blank" rel="noreferrer" id="contact-phone" ><FiPhoneCall /></a>
           </div>
 
 
