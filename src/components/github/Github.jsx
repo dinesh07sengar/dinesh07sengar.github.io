@@ -36,7 +36,7 @@ const Testimonials = () => {
   ];
   return (
     <section id="testmonials">
-      <div  style={{display:'flex', justifyContent:'center', alignItems:'center', marginTop:'3rem'}}>
+      {/* <div  style={{display:'flex', justifyContent:'center', alignItems:'center', marginTop:'3rem'}}>
         <img
         id="github-top-langs"
           align="center"
@@ -57,8 +57,8 @@ const Testimonials = () => {
           src="https://github-readme-streak-stats.herokuapp.com/?user=dinesh07sengar&theme=dark&hide_border=true&background=FFFFFF00&sideNums=6d6b6b&sideLabels=6d6b6b&ring=e66262&fire=e66262&currStreakLabel=e66262&currStreakNum=6d6b6b"
           alt="dinesh07sengar"
         />
-        </div>
-      {/* 
+        </div> */}
+      
       
 
       <h5>Some glimpse of my github</h5>
@@ -80,7 +80,7 @@ const Testimonials = () => {
           
         </SwiperSlide>
         ))}
-        <div> */}
+        <div>
         <GitHubCalendar
         fontSize={16}
         blockSize={15}
@@ -88,9 +88,9 @@ const Testimonials = () => {
         username="dinesh07sengar"
         style={{backgroundColor:"none"}}
       />
-        {/* </div> */}
+        </div>
        
-      {/* //</Swiper> */}
+      //</Swiper>
     </section>
   )
 }
