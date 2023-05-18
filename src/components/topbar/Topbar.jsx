@@ -8,7 +8,7 @@ import {FaFileDownload} from 'react-icons/fa'
 
 
 import './topbar.css';
-import CV from '../../assets/Dinesh_Sengar_Resume.pdf';
+
 
 const Topbar = () => {
   // className={activeNav === '#home' ? 'active' : ''}
