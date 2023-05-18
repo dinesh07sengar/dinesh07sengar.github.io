@@ -3,7 +3,7 @@ import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
 import { BsInstagram } from 'react-icons/bs'
 import './footer.css';
-import CV from '../../assets/Dinesh_Sengar_Resume.pdf';
+import CV from '../../assets/Dinesh-Sengar-Resume.pdf';
 
 const Footer = () => {
   

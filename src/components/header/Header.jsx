@@ -2,7 +2,7 @@ import React from 'react';
 //import CTA from './CTA';
 import HeaderSocials from './HeaderSocials';
 import './header.css';
-import CV from '../../assets/Dinesh_Sengar_Resume.pdf';
+import CV from '../../assets/Dinesh-Sengar-Resume.pdf';
 
 const Header = () => {
   return (
