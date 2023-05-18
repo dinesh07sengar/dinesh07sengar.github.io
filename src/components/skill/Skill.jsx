@@ -1,8 +1,8 @@
 import React from 'react';
 import { BsFillPatchCheckFill } from 'react-icons/bs';
-import './experience.css';
+import './skill.css';
 
-const Experience = () => {
+const Skills = () => {
   return (
     <section  id="skills">
       <h5>The Skills I Have</h5>
@@ -72,4 +72,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Skills

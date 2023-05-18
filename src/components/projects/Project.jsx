@@ -4,9 +4,9 @@ import React from 'react';
 import IMG4 from '../../assets/hotstar.jpg';
 
 
-import './portfolio.css';
+import './project.css';
 
-const Portfolio = () => {
+const Projects = () => {
   const soloProjects = [
     {
       id: 4,
@@ -93,4 +93,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;

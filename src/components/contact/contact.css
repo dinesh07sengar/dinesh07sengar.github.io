@@ -69,6 +69,27 @@ textarea {
     resize: none;
     color: var(--color-white);
 }
+.contact__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.contact__socials a {
+    background: var(--color-primary);
+    color: var(--color-bg);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.contact__socials a:hover {
+    background: transparent;
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+}
 
 @media screen and (max-width: 1024px){
     .container.contact__container {

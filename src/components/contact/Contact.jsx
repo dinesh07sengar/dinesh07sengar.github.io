@@ -49,14 +49,12 @@ const Contact = () => {
             <a href="sengardante@gmail.com">Send a message</a>
 
           </article>
-          <div className="footer__socials">
-            <button id="contact-linkedin">
-              <a href="https://www.linkedin.com/in/dinesh-sengar-199a98201/" target="_blank" rel="noreferrer" ><BsLinkedin /></a></button>
-            <button id="contact-github"><a href="https://github.com/dinesh07sengar" target="_blank" rel="noreferrer" ><FaGithub /></a></button>
-            <button id="contact-phone"><a href="https://www.instagram.com/dinesh_sengar_/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noreferrer" ><FiPhoneCall /></a></button>
+          <div className="contact__socials">
+
+            <a href="https://www.linkedin.com/in/dinesh-sengar-199a98201/" target="_blank" rel="noreferrer" id="contact-linkedin" ><BsLinkedin /></a>
+            <a href="https://github.com/dinesh07sengar" target="_blank" rel="noreferrer" id="contact-github"><FaGithub /></a>
+            <a href="https://www.instagram.com/dinesh_sengar_/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noreferrer" id="contact-phone" ><FiPhoneCall /></a>
           </div>
-
-
 
 
         </div>
