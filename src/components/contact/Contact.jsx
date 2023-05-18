@@ -9,11 +9,13 @@ import { FiPhoneCall } from 'react-icons/fi'
 import './contact.css';
 
 const Contact = () => {
+ 
   const [message, setMessage] = useState(false);
   const formRef = useRef();
   const handleSubmit = (e) => {
     e.preventDefault();
     setMessage(true);
+    console.log( formRef.current)
     emailjs
       .sendForm(
         'service_wofr4g6',
@@ -78,9 +80,9 @@ const Contact = () => {
             required
           ></textarea>
           <div >
-            <a href='mailto:sengardante@gmail.com'><button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btn-primary">
               Send Message
-            </button></a>
+            </button>
 
           </div>
           {message && <span>Thanks, I'll reply ASAP :)</span>}

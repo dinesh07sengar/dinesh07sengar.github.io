@@ -90,7 +90,7 @@ const Testimonials = () => {
       />
         </div>
        
-      //</Swiper>
+      </Swiper>
     </section>
   )
 }
