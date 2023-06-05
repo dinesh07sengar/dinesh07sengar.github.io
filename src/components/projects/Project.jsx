@@ -15,7 +15,7 @@ const Projects = () => {
       description:
         'Hotstar is single page video streaming web app',
       technologies: 'ReactJs | CSS | Redux | ChakraUi | HTML | ES6',
-      link: 'hotstart-clone.vercel.app/',
+      link: 'https://hotstart-clone.vercel.app/',
       github: 'https://github.com/Vishalll069/Hotstar-Clone',
     },
     {
