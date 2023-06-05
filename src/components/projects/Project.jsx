@@ -15,8 +15,8 @@ const Projects = () => {
       description:
         'Hotstar is single page video streaming web app',
       technologies: 'ReactJs | CSS | Redux | ChakraUi | HTML | ES6',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
-      github: 'https://github.com/Meri-MG/shelter',
+      link: 'hotstart-clone.vercel.app/',
+      github: 'https://github.com/Vishalll069/Hotstar-Clone',
     },
     {
       id: 1,
