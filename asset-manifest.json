@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.e2953f4c.css",
-    "main.js": "/static/js/main.92e5857f.js",
+    "main.js": "/static/js/main.2f7b3c3a.js",
     "static/media/Dinesh-Sengar-Resume.pdf": "/static/media/Dinesh-Sengar-Resume.cabc354ec765e4ea9b13.pdf",
     "static/media/me.jpeg": "/static/media/me.31c70a131a682a5e7647.jpeg",
     "static/media/hotstar.jpg": "/static/media/hotstar.a934a2b1c30e3b920897.jpg",
     "index.html": "/index.html",
     "main.e2953f4c.css.map": "/static/css/main.e2953f4c.css.map",
-    "main.92e5857f.js.map": "/static/js/main.92e5857f.js.map"
+    "main.2f7b3c3a.js.map": "/static/js/main.2f7b3c3a.js.map"
   },
   "entrypoints": [
     "static/css/main.e2953f4c.css",
-    "static/js/main.92e5857f.js"
+    "static/js/main.2f7b3c3a.js"
   ]
 }
